@@ -1,0 +1,40 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.canvas-area {
+  height: 400px;
+  width: 100%;
+  border: 1px solid black;
+}
+.main-canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.toolbar {
+  border: 1px solid black;
+  margin: 1rem;
+  padding: 0.5rem;
+}
+#colors-container {
+  display: flex;
+  gap: 1rem;
+}
+.color-btn {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+.shapes {
+  margin-top: 0.5rem;
+}

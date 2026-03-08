@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <link rel="stylesheet" href="./style.css" />
+    <!-- <script src="./script.js" defer></script> -->
+    <script type="module" src="./App.js"></script>
+  </head>
+  <body>
+    <h1>Vanilla Canvas</h1>
+    <button id="clear">clear</button>
+    <div class="canvas-area">
+      <canvas class="main-canvas" />
+    </div>
+    <div class="toolbar">
+      <div>
+        <div id="colors-container" />
+        <input type="color" id="color-input" />
+      </div>
+      <div class="shapes">
+        <button data-tool="BRUSH">Brush</button>
+        <button data-tool="RECT">Rectangle</button>
+        <button data-tool="SQUARE">Square</button>
+        <button data-tool="CIRCLE">Circle</button>
+        <button data-tool="IMAGE">Image</button>
+        <button data-tool="SELECT">Select</button>
+      </div>
+    </div>
+  </body>
+</html>
